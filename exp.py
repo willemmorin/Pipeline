@@ -38,7 +38,6 @@ def node_ind(train,test,valid):
         if len(i)>0:
             for j in i:
                 j = str(j)
-                # print(j)
                 ss = re.findall('<(.*?)>', j)
                 ssh = str(ss[0])
                 target = re.findall('\d+',ssh)
